@@ -1,0 +1,27 @@
+# |    EpicJoinItems    |
+# | By jonagamerpro1234 |
+# |     Version 1.0.0   |
+# |_____________________|
+#
+Config:
+
+  # |Use-Default-Prefix| if it is true it will use the prefix of the plugin itself, but if it is false it will use the prefix that you define in [Prefix: 'my server']
+  Use-Default-Prefix: true
+  
+  # |Prefix| here you can define a custom prefix
+  Prefix: '&6[&aMy server name&6]&7 '
+
+  # |Update| This function lets you know if there is a plugin update [Does not disable console messages]
+  Update: true
+#
+#  |Translation of messages from EpicJoinItems|   
+#  |Version: 1.0
+#
+EpicJoinItems:
+  Reload: '&aReload Completed'
+#
+# This is the end of the configuration ... [-_-] more things coming soon
+# 
+# | Config File
+# | Version 1.0.0
+#

@@ -1,0 +1,26 @@
+main: jss.epicjoinitems.EpicJoinItems
+name: EpicJoinItems
+version: 1.0.0
+author: [jonagamerpro1234]
+api-version: 1.13
+prefix: EpicJoinItems
+description: the plugin
+website: https://github.com/jonagamerpro1234/EpicJoinItems
+
+commands:
+  EpicJoinItems:
+    description: the main command in the plugin
+    aliases: eji
+permissions:
+  EpicJoinItems.Admin:
+    dscription: give all permissions of the plugin
+    children:
+      EpicJoinItems.Reload: true
+      EpicJoinItems.Update: true
+    default: op
+  EpicJoinItems.Reload:
+    description: give the permission of reload the files
+    default: op
+  EpicJoinItems.Update:
+    description: give the permission of update notify
+    default: op

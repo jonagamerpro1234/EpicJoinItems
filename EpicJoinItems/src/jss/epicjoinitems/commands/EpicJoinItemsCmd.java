@@ -14,9 +14,7 @@ public class EpicJoinItemsCmd implements CommandExecutor {
 	public EpicJoinItemsCmd(EpicJoinItems plugin) {
 		this.plugin = plugin;
 	}
-
-
-
+	
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if(!(sender instanceof Player)) {
 			

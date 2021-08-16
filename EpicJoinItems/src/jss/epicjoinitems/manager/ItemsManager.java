@@ -42,8 +42,8 @@ public class ItemsManager {
 				item = a[c];
 				if(this.isSimilar(item)) {
 					Utils.sendColorMessage(player, "&cYour already own this item");
+					return;
 				}
-				return;
 			}
 
 	         item = new ItemStack(Material.valueOf(material.toUpperCase()));
@@ -88,7 +88,7 @@ public class ItemsManager {
 				this.lore.add(lineColored);
 			});
 		}else {
-			lore = new ArrayList<>();
+			this.lore = new ArrayList<>();
 		}
 	}
 	

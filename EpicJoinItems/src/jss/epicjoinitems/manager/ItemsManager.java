@@ -28,7 +28,7 @@ public class ItemsManager {
 		this.amount = amount;
 	}
 	
-	@SuppressWarnings({ "unused", "null" })
+	@SuppressWarnings({ "null" })
 	public void giveTo(Player player) {
 		PlayerInventory inv = player.getInventory();
 		if(inv.firstEmpty() == -1) {
